@@ -1,2 +1,4 @@
 # DiffUIR
-The official implementation of the paper of CVPR2024: Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model
+The official implementation of Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model
+Accepted at CVPR 2024!
+The code is coming soon!
