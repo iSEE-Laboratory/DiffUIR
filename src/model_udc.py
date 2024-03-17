@@ -1384,7 +1384,7 @@ class Trainer(object):
                 dist_all += dist01
 
                 #------------------------save_image----------------------------------------
-                # vutils.save_image(all_images, './udc_our/' + str(cnt) +'_test.jpg', normalize=True)
+                vutils.save_image(all_images, './udc_our/' + str(cnt) +'_test.jpg', normalize=True)
                 
                 sr_img = tensor2img(all_images, rgb2bgr=True)
                 gt_img = tensor2img(gt, rgb2bgr=True)
