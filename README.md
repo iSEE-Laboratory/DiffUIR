@@ -1,5 +1,11 @@
-# DiffUIR (Accepted to CVPR2024)
-This is the implementation of the paper: [Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model](), Dian Zheng, Xiao-Ming Wu, Shuzhou Yang, Jian Zhang, Jian-Fang Hu, Wei-Shi Zheng
+## Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model <br><sub>Official PyTorch Implementation of DiffUIR. </sub>
+
+[Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper]() | [Personal HomePage](https://zhengdian1.github.io)
+
+### Updates
+[**2024.03.17**] The **whole training and testing codes** are released!!!
+[**2024.03.16**] The **pretrained weights** of DiffUIR are released in [link1](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link)
+[**2024.02.27**]  🎉🎉🎉 Our DiffUIR paper was accepted by CVPR 2024 🎉🎉🎉 <br>
 
 ## Introduction
 
@@ -64,10 +70,6 @@ Here you can test our model in your personal image. Note that if you want to tes
 python visual.py
 ```
 
-### Pretrained Model
-
-[model](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link)
-
 ## Qualitative results on four restoration tasks
 
 ![image](Images/four.png)
@@ -97,3 +99,7 @@ If you find this project helpful in your research, welcome to cite the paper.
 # Acknowledgements
 
 Thanks to Jiawei Liu for opening source of his excellent works RDDM. Our work is inspired by these works and part of codes are migrated from [RDDM](https://github.com/nachifur/RDDM).
+
+# Acknowledgements
+
+Please contact Dian Zheng if there is any question (1423606603@qq.com or zhengd35@mail2.sysu.edu.cn).
