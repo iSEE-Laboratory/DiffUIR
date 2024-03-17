@@ -6,10 +6,8 @@ This is the implementation of the paper: [Selective Hourglass Mapping for Univer
 The main challenge of universal image restoration tasks is handling different degradation images at once. In this work, we propose a selective hourglass mapping strategy based on conditional diffusion model to learn the shared information between different tasks.
 
 
-### Training Framework
-![image](Images/diffuvolume.png)
-### Inference Framework
-![image](Images/infer.png)
+### Framework comparison
+![image](Images/diffuir.png)
 
 # How to use
 
@@ -68,13 +66,17 @@ python visual.py
 [5_tasks](https://drive.google.com/drive/folders/1aCmW6-MBBkvJ4pQ3_AchxzzrezHmArEp?usp=drive_link)
 [zero-shot](https://drive.google.com/drive/folders/1aCmW6-MBBkvJ4pQ3_AchxzzrezHmArEp?usp=drive_link)
 
-## Qualitative results on five restoration tasks
+## Qualitative results on four restoration tasks (desnowing, low-light, deraining, and debluring)
 
-![image](Images/zero.png)
+![image](Images/four.png)
 
 ## Analysis of the shared information
 
-![image](Images/zero.png)
+### The distribution before and after our SDT, SDT map the different degradation images to a shared distribution.
+![image](Images/tsne.png)
+
+### The attention of the feature map, our method could focus on the degradation type (rain and fog), validating that we learn the useful shared information.
+![image](Images/attention.png)
 
 # Citation
 
