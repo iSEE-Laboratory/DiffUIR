@@ -1380,15 +1380,15 @@ class Trainer(object):
                 all_images_list = [all_images_list[-1]]
                 all_images = torch.cat(all_images_list, dim=0)
  
-                # if last:
-                #     nrow = int(math.sqrt(self.num_samples))
-                # else:
-                #     nrow = all_images.shape[0]
-                # save_path = str(self.results_folder / file_name)
-                # os.makedirs(save_path, exist_ok=True)
-                # full_path = os.path.join(save_path, file_.split('/')[-1]).replace('_fake_B','')
-                # utils.save_image(all_images, full_path, nrow=nrow)
-                # print("test-save "+full_path)
+                if last:
+                    nrow = int(math.sqrt(self.num_samples))
+                else:
+                    nrow = all_images.shape[0]
+                save_path = str(self.results_folder / file_name)
+                os.makedirs(save_path, exist_ok=True)
+                full_path = os.path.join(save_path, file_.split('/')[-1]).replace('_fake_B','')
+                utils.save_image(all_images, full_path, nrow=nrow)
+                print("test-save "+full_path)
                 
             #calculate the metric
             
