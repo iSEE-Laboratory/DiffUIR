@@ -94,5 +94,5 @@ if not trainer.accelerator.is_local_main_process:
     pass
 else:
     trainer.load(300)
-    # trainer.set_results_folder('./sots')
+    trainer.set_results_folder('./result')
     trainer.test(last=True)

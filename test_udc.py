@@ -100,4 +100,5 @@ if not trainer.accelerator.is_local_main_process:
     pass
 else:
     trainer.load(130)
+    trainer.set_results_folder('./udc')
     trainer.test(last=True)
