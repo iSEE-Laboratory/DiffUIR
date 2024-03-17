@@ -100,6 +100,6 @@ If you find this project helpful in your research, welcome to cite the paper.
 
 Thanks to Jiawei Liu for opening source of his excellent works RDDM. Our work is inspired by these works and part of codes are migrated from [RDDM](https://github.com/nachifur/RDDM).
 
-# Acknowledgements
+# Contact
 
-Please contact Dian Zheng if there is any question (1423606603@qq.com or zhengd35@mail2.sysu.edu.cn).
+Please contact Dian Zheng if there are any questions (1423606603@qq.com or zhengd35@mail2.sysu.edu.cn).
