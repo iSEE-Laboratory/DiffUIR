@@ -3,7 +3,9 @@ This is the implementation of the paper: [Selective Hourglass Mapping for Univer
 
 ## Introduction
 
-The main challenge of universal image restoration tasks is handling different degradation images at once. In this work, we propose a selective hourglass mapping strategy based on conditional diffusion model to learn the shared information between different tasks.
+The main challenge of universal image restoration tasks is handling different degradation images at once. In this work, we propose a selective hourglass mapping strategy based on conditional diffusion model to learn the shared information between different tasks. Specifically, we integrate a 
+shared distribution term to the diffusion algorithm elegantly and naturally, achieving to map the different distributions to a shared one and could further guide the shared distribution to the task-specific clean image. By only modify
+the mapping strategy, we outperform large-scale universal methods with at least five times less computational costing.
 
 
 ### Framework comparison
@@ -63,19 +65,18 @@ python visual.py
 
 ### Pretrained Model
 
-[5_tasks](https://drive.google.com/drive/folders/1aCmW6-MBBkvJ4pQ3_AchxzzrezHmArEp?usp=drive_link)
-[zero-shot](https://drive.google.com/drive/folders/1aCmW6-MBBkvJ4pQ3_AchxzzrezHmArEp?usp=drive_link)
+[model](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link)
 
-## Qualitative results on four restoration tasks (desnowing, low-light, deraining, and debluring)
+## Qualitative results on four restoration tasks
 
 ![image](Images/four.png)
 
 ## Analysis of the shared information
 
-### The distribution before and after our SDT, SDT map the different degradation images to a shared distribution.
+The distribution before and after our SDT, SDT map the different degradation images to a shared distribution.
 ![image](Images/tsne.png)
 
-### The attention of the feature map, our method could focus on the degradation type (rain and fog), validating that we learn the useful shared information.
+The attention of the feature map, our method could focus on the degradation type (rain and fog), validating that we learn the useful shared information.
 ![image](Images/attention.png)
 
 # Citation
