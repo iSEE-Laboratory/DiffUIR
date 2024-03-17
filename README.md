@@ -39,15 +39,16 @@ pip install tqdm
 ## Data Preparation
 Download [Scene Flow Datasets](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
 
-## Train
-We train the five image restoration tasks at once, you can change the code in train.py-Line42 to change the task type.
+## Train 
+We train the five image restoration tasks at once, you can change train.py-Line42 to change the task type. <br>
+Note that the result of our paper can be reimplemented on RTX 4090, using 3090 or other gpus may cause performance drop.
 ```
 python train.py
 ```
 
 ## Test and Calculate the Metric
 Note that the dataset of SOTS can not calculate the metric online as the number of input and gt images is different. 
-Please save the image and use eval/SOTS.m, the save code is in src/model.py-Line1383
+Please use eval/SOTS.m. 
 ```
 python test.py
 ```
