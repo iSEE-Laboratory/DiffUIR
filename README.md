@@ -128,7 +128,7 @@ If you want to run the light version of our DiffUIR, please change the U-net arc
 
 ## Analysis of the shared information
 
-The distribution before and after our SDT, SDT map the different degradation images to a shared distribution.
+The distribution before and after our SDT, SDT map the different distributions to a shared one.
 ![image](Images/tsne.png)
 
 The attention of the feature map, our method could focus on the degradation type (rain and fog), validating that we learn the useful shared information.
