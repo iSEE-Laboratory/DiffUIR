@@ -42,11 +42,43 @@ pip install matplotlib
 pip install tqdm
 ```
 
-<!-- ## Data Preparation
-Download [Scene Flow Datasets](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html) -->
+## Dataset Preparation
+
+Preparing the train and test datasets following our paper Dataset Construction section as:
+
+```bash
+Datasets/Restoration
+|--syn_rain
+|  |--train
+      |--input
+      |--target
+|  |--test
+|--Snow100K
+|--Deblur
+|--LOL
+|--RESIDE
+   |--OTS_ALPHA
+      |--haze
+      |--clear
+   |--SOTS/outdoor
+|--real_rain
+|--real_dark
+|--UDC_val_test
+
+```
+Then get into the `data/universal_dataset.py` file and modify the dataset paths. 
+
+### Dataset Links
+
+| Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   | real_rain,dark, UDC  |
+|-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|:--------------------:|
+| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | [LOL](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) | [Rain100H](http://www.icst.pku.edu.cn/struct/att/Rain100H.zip) 
+ |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftrain%2FSnow100K-training.tar.gz&sa=D&sntz=1&usg=AOvVaw1Zj_7kQaF0c26DaZcoKEOr, https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06, https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) | [RESIDE]()| [real](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) |
+
+You should **only extract the train datasets for training**, and all **validation datasets** can be downloaded in the [Google drive](https://drive.google.com/file/d/1JKd1tA7rMoEbI9190daJqL7i6V1L8KUd/view?usp=sharing).
 
 ## Train 
-We train the five image restoration tasks at once, you can change train.py-Line42 to change the task type. <br>
+We train the five image restoration tasks at once, you can change train.py-Line42 to change the task type. <br> 
 Note that the result of our paper can be reimplemented on RTX 4090, using 3090 or other gpus may cause performance drop.
 ```
 python train.py
