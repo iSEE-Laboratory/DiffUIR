@@ -3,7 +3,7 @@
 [Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper]() | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
-[**2024.03.18**] The **data link** is updating. <br>
+[**2024.03.18**] The **14 datasets link** is released. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
 [**2024.03.16**] The **pretrained weights** of DiffUIR are released in [link1](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link) <br>
 [**2024.02.27**]  🎉🎉🎉 Our DiffUIR paper was accepted by CVPR 2024 🎉🎉🎉 <br>
