@@ -94,12 +94,14 @@ python train.py
 
 ## Test and Calculate the Metric
 Note that the dataset of SOTS can not calculate the metric online as the number of input and gt images is different. 
-Please use eval/SOTS.m. 
+Please use eval/SOTS.m.  <br>
+The pretrained weight of model-300.pt is used to test with timestep 3.
 ```
 python test.py
 ```
 
-For Under-Camera real-world dataset, as the resolution is high, we split the image into several pathes and merge them after model.
+For Under-Camera real-world dataset, as the resolution is high, we split the image into several pathes and merge them after model. <br>
+The pretrained weight of model-130.pt is used to test with timestep 4.
 ```
 python test_udc.py
 ```
