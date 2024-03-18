@@ -69,11 +69,22 @@ Datasets/Restoration
 Then get into the `data/universal_dataset.py` file and modify the dataset paths. 
 
 ### Dataset Links
-
-| Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   | real_rain,dark, UDC  |
-|-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|:--------------------:|
+#### train
+| Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   |
+|-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|
 | Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | [LOL](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) | [Rain100H](http://www.icst.pku.edu.cn/struct/att/Rain100H.zip) 
- |[train](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftrain%2FSnow100K-training.tar.gz&sa=D&sntz=1&usg=AOvVaw1Zj_7kQaF0c26DaZcoKEOr), [test](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06), [real](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) | [RESIDE]()| [real](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) |
+ |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftrain%2FSnow100K-training.tar.gz&sa=D&sntz=1&usg=AOvVaw1Zj_7kQaF0c26DaZcoKEOr) | [RESIDE]()|
+
+ #### test
+| Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   |
+|-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|
+| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | - | -
+ |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06), [real](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) | [RESIDE]() |
+
+ #### real
+| Degradation |      real_dark   |   real_rain   |   UDC  |   real_snow  |    
+|-------------|:----------------:|:-------------:|:------:|:------------:|
+| Datasets    | [dark](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) | [rain](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) | [UDC](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) |
 
 You should **only extract the train datasets for training**, and all **validation datasets** can be downloaded in the [Google drive](https://drive.google.com/file/d/1JKd1tA7rMoEbI9190daJqL7i6V1L8KUd/view?usp=sharing).
 
