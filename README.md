@@ -70,9 +70,13 @@ Here you can test our model in your personal image. Note that if you want to tes
 python visual.py
 ```
 
-## Qualitative results on four restoration tasks
+## Qualitative results on five restoration tasks
 
-![image](Images/four.png)
+![image](Images/five.png)
+
+## Qualitative results on real-world images
+
+![image](Images/real.png)
 
 ## Analysis of the shared information
 
@@ -100,6 +104,6 @@ If you find this project helpful in your research, welcome to cite the paper.
 
 Thanks to Jiawei Liu for opening source of his excellent works RDDM. Our work is inspired by these works and part of codes are migrated from [RDDM](https://github.com/nachifur/RDDM).
 
-# Contact
+# Acknowledgements
 
-Please contact Dian Zheng if there are any questions (1423606603@qq.com or zhengd35@mail2.sysu.edu.cn).
+Please contact Dian Zheng if there is any question (1423606603@qq.com or zhengd35@mail2.sysu.edu.cn).
