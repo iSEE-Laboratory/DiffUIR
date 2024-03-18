@@ -73,12 +73,12 @@ Then get into the `data/universal_dataset.py` file and modify the dataset paths.
 #### train
 | Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   |
 |-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|
-| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | [LOL](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) | [Rain100H](http://www.icst.pku.edu.cn/struct/att/Rain100H.zip) |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftrain%2FSnow100K-training.tar.gz&sa=D&sntz=1&usg=AOvVaw1Zj_7kQaF0c26DaZcoKEOr) | [RESIDE]()|
+| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | [LOL](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) | [syn_rain]() |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftrain%2FSnow100K-training.tar.gz&sa=D&sntz=1&usg=AOvVaw1Zj_7kQaF0c26DaZcoKEOr) | [RESIDE]()|
 
  #### test
 | Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   |
 |-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|
-| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | - | -|[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06) | [SOTS](https://utexas.app.box.com/s/uqvnbfo68kns1210z5k5j17cvazavcd1) |
+| Datasets    | [combine](-) | - | [combine]()|[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06) | [SOTS](https://utexas.app.box.com/s/uqvnbfo68kns1210z5k5j17cvazavcd1) |
 
  #### real
 | Degradation |      real_dark   |   real_rain   |   UDC  |   real_snow  |    
