@@ -82,7 +82,7 @@ Then get into the `data/universal_dataset.py` file and modify the dataset paths.
  #### real
 | Degradation |      real_dark   |   real_rain   |   UDC  |   real_snow  |    
 |-------------|:----------------:|:-------------:|:------:|:------------:|
-| Datasets    | [dark](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) | [rain](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) | [UDC](https://drive.google.com/drive/folders/18ods247MkUvqqCYGu1E6VKQbiWdZXsnn?usp=drive_link) |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) |
+| Datasets    | [dark](https://drive.google.com/drive/folders/17ZjlY0ut7ye6hmQLwnplxpgDg5RQnhsf?usp=drive_link) | [rain](https://drive.google.com/drive/folders/18Tuc_EzT3aIyRoJcnNcqSp25YIpla2Ew?usp=drive_link) | [UDC](https://drive.google.com/drive/folders/1VEMP9aVcVGcaw47iKXgf-PF9tHu3vvOq?usp=drive_link) |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) |
 
 You should **only extract the train datasets for training**, and all **validation datasets** can be downloaded in the [Google drive](https://drive.google.com/file/d/1JKd1tA7rMoEbI9190daJqL7i6V1L8KUd/view?usp=sharing).
 
