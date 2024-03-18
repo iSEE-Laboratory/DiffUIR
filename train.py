@@ -63,6 +63,14 @@ model = UnetRes(
     objective=objective,
     test_res_or_noise = test_res_or_noise
 )
+# model = UnetRes(
+#     dim=32,
+#     dim_mults=(1, 1, 1, 1),
+#     num_unet=num_unet,
+#     condition=condition,
+#     objective=objective,
+#     test_res_or_noise = test_res_or_noise
+# )
 diffusion = ResidualDiffusion(
     model,
     image_size=image_size,
