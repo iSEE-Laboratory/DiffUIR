@@ -5,7 +5,7 @@
 ### Updates
 [**2024.03.18**] The **14 datasets link** is released. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
-[**2024.03.16**] The **pretrained weights** of DiffUIR are released in [link1](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link) <br>
+[**2024.03.16**] The **4 versions of pretrained weights** of DiffUIR are released. <br>
 [**2024.02.27**]  🎉🎉🎉 Our DiffUIR paper was accepted by CVPR 2024 🎉🎉🎉 <br>
 
 ## Introduction
@@ -109,6 +109,9 @@ Here you can test our model in your personal image. Note that if you want to tes
 ```
 python visual.py
 ```
+## Model Zoo
+| Model |    DiffUIR-T (0.89M)  |   DiffUIR-S (3.27M)  |   DiffUIR-B (12.41M)  |   DiffUIR-L (36.26M)  |
+| Link  |    [Tiny](https://drive.google.com/drive/folders/163LnmMHC8wAaKRHClUp0T7oU6GcAzScO?usp=drive_link) | [Small](https://drive.google.com/drive/folders/1yPPtydoUd_szWG-O65kQ5dsLpqx7BHbp?usp=drive_link) | [Base](https://drive.google.com/drive/folders/1H96UB15t8pv6Rs83MBDjB7t2OrHEMt08?usp=drive_link) | [Large](https://drive.google.com/drive/folders/1Wg9-5hwzZVQ_kXMomRoFSC-ZU4X6FwSH?usp=drive_link) |
 
 ## Qualitative results on five restoration tasks
 
