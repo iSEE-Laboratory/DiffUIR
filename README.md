@@ -3,6 +3,7 @@
 [Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper]() | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
+[**2024.03.18**] The **data link** is updating. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
 [**2024.03.16**] The **pretrained weights** of DiffUIR are released in [link1](https://drive.google.com/drive/folders/1vIFrSe8Bfy9neNSQjO51OKyEKNV83BLW?usp=drive_link) <br>
 [**2024.02.27**]  🎉🎉🎉 Our DiffUIR paper was accepted by CVPR 2024 🎉🎉🎉 <br>
@@ -77,14 +78,12 @@ Then get into the `data/universal_dataset.py` file and modify the dataset paths.
  #### test
 | Degradation |      blurry   |   low-light   |   rainy  |   snowy  |    hazy   |
 |-------------|:-------------:|:-------------:|:--------:|:--------:|:---------:|
-| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | - | -|[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06) | [RESIDE]() |
+| Datasets    | [Gopro](https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view) | - | -|[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Fdataset_synthetic%2Ftest%2FSnow100K-testset.tar.gz&sa=D&sntz=1&usg=AOvVaw3562USQHWQDnt8sLhWvl06) | [SOTS](https://utexas.app.box.com/s/uqvnbfo68kns1210z5k5j17cvazavcd1) |
 
  #### real
 | Degradation |      real_dark   |   real_rain   |   UDC  |   real_snow  |    
 |-------------|:----------------:|:-------------:|:------:|:------------:|
 | Datasets    | [dark](https://drive.google.com/drive/folders/17ZjlY0ut7ye6hmQLwnplxpgDg5RQnhsf?usp=drive_link) | [rain](https://drive.google.com/drive/folders/18Tuc_EzT3aIyRoJcnNcqSp25YIpla2Ew?usp=drive_link) | [UDC](https://drive.google.com/drive/folders/1VEMP9aVcVGcaw47iKXgf-PF9tHu3vvOq?usp=drive_link) |[Snow100K](https://www.google.com/url?q=https%3A%2F%2Fdesnownet.s3.amazonaws.com%2Frealistic_image%2Frealistic.tar.gz&sa=D&sntz=1&usg=AOvVaw3SrhOt805ebXPoHQ6ruFqi) |
-
-You should **only extract the train datasets for training**, and all **validation datasets** can be downloaded in the [Google drive](https://drive.google.com/file/d/1JKd1tA7rMoEbI9190daJqL7i6V1L8KUd/view?usp=sharing).
 
 ## Train 
 We train the five image restoration tasks at once, you can change train.py-Line42 to change the task type. <br> 
