@@ -1,6 +1,6 @@
 ## Selective Hourglass Mapping for Universal Image Restoration Based on Diffusion Model <br><sub>Official PyTorch Implementation of DiffUIR. </sub>
 
-[Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper]() | [Personal HomePage](https://zhengdian1.github.io)
+[Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper](https://arxiv.org/abs/2403.11157) | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
 [**2024.03.18**] The **14 datasets link** is released. <br>
