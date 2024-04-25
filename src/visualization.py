@@ -1266,6 +1266,13 @@ class Trainer(object):
 
         # self.ema.to(self.device)
     
+    def cv2equalizeHist(self, img):
+        (b, g, r) = cv2.split(img)
+        b = cv2.equalizeHist(b)
+        g = cv2.equalizeHist(g)
+        r = cv2.equalizeHist(r)
+        img = cv2.merge((b, g, r))
+        return img
     
     def test(self, sample=False, last=True, FID=False):
         self.ema.ema_model.init()
