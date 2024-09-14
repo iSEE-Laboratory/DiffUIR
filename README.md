@@ -107,7 +107,7 @@ python test_udc.py
 ```
 
 ## Visualize
-Here you can test our model in your personal image. Note that if you want to test low-light image, please use the code src/visualization-Line1279-1281
+Here you can test our model in your personal image. Note that if you want to test low-light image, please use the code src/visualization-Line1286-1288
 ```
 python visual.py
 ```
