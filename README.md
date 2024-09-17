@@ -96,7 +96,7 @@ python train.py
 Note that the dataset of SOTS can not calculate the metric online as the number of input and gt images is different. 
 Please use eval/SOTS.m.  <br>
 The pretrained weight of model-300.pt is used to test with timestep 3.
-## Notably, change the 'task' id in test.py Line 43 to your task, low-light enhancement for 'light_only', deblur for 'blur', dehaze for 'fog', derain for 'rain', desnow for 'snow' 
+Notably, change the 'task' id in test.py Line 43 to your task, low-light enhancement for 'light_only', deblur for 'blur', dehaze for 'fog', derain for 'rain', desnow for 'snow' 
 ```
 python test.py
 ```
