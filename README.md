@@ -3,6 +3,7 @@
 [Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper](https://arxiv.org/abs/2403.11157) | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
+[**2024.09.17**] Given more instruction for test.py and visual.py for better usage. <br>
 [**2024.03.18**] The **14 datasets link** is released. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
 [**2024.03.16**] The **4 versions of pretrained weights** of DiffUIR are released. <br>
@@ -95,7 +96,7 @@ python train.py
 ## Test and Calculate the Metric
 Note that the dataset of SOTS can not calculate the metric online as the number of input and gt images is different. 
 Please use eval/SOTS.m.  <br>
-The pretrained weight of model-300.pt is used to test with timestep 3.
+The pretrained weight of model-300.pt is used to test with timestep 3. <br>
 Notably, change the 'task' id in test.py Line 43 to your task, low-light enhancement for 'light_only', deblur for 'blur', dehaze for 'fog', derain for 'rain', desnow for 'snow' 
 ```
 python test.py
