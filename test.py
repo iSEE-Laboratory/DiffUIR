@@ -38,7 +38,7 @@ image_size = 256
 
 opt = parsr_args()
 
-results_folder = "./ckpt_universal"
+results_folder = "./ckpt_universal/diffuir"
 
 dataset = AlignedDataset_all(opt, image_size, augment_flip=False, equalizeHist=True, crop_patch=False, generation=False, task='fog')
 num_unet = 1
