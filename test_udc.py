@@ -39,7 +39,7 @@ image_size = 256
 
 opt = parsr_args()
 
-results_folder = "./ckpt_universal"
+results_folder = "./ckpt_universal/diffuir"
 
 # data=scio.loadmat('/mnt/Datasets/Restoration/UDC_val_test/toled/toled_test_display.mat')['test_display']
 # data_gt=scio.loadmat('/mnt/Datasets/Restoration/UDC_val_test/toled/toled_test_gt.mat')['test_gt']
