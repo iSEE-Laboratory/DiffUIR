@@ -113,12 +113,16 @@ Here you can test our model in your personal image. Note that if you want to tes
 ```
 python visual.py
 ```
-## Model Zoo
+## Model Zoo (Google drive)
 | Model |    DiffUIR-T (0.89M)  |   DiffUIR-S (3.27M)  |   DiffUIR-B (12.41M)  |   DiffUIR-L (36.26M)  |
 |-------|:---------------------:|:--------------------:|:---------------------:|:---------------------:|
 | Arch  |        32-1111 [Tiny](https://drive.google.com/drive/folders/163LnmMHC8wAaKRHClUp0T7oU6GcAzScO?usp=drive_link)        |        32-1224  [Small](https://drive.google.com/drive/folders/1yPPtydoUd_szWG-O65kQ5dsLpqx7BHbp?usp=drive_link)     |        64-1224     [Base](https://drive.google.com/drive/folders/1H96UB15t8pv6Rs83MBDjB7t2OrHEMt08?usp=drive_link)   |        64-1248     [Large](https://drive.google.com/drive/folders/1Wg9-5hwzZVQ_kXMomRoFSC-ZU4X6FwSH?usp=drive_link)   |
 
-If you want to run the light version of our DiffUIR, please change the U-net architecture in train.py-Line66, the detailed arch parameters are shown above.
+## Model Zoo (Onedrive)
+| Model |    DiffUIR-T (0.89M)  |   DiffUIR-S (3.27M)  |   DiffUIR-B (12.41M)  |   DiffUIR-L (36.26M)  |
+|-------|:---------------------:|:--------------------:|:---------------------:|:---------------------:|
+| Arch  |        32-1111 [Tiny]()        |        32-1224  [Small]()     |        64-1224     [Base]()   |        64-1248     [Large](https://1drv.ms/u/c/1470175ad127c62d/EVbkvCEbpeJHvwAbTQ35CLUBI0ncpf2jKM-U8zgZcF2Hdw?e=BgcWxA)   |
+As some places could not use google drive, we added the onedrive link here.
 
 ## Qualitative results on five restoration tasks
 
