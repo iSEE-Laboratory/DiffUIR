@@ -118,7 +118,7 @@ python visual.py
 |-------|:---------------------:|:--------------------:|:---------------------:|:---------------------:|
 | Arch  |        32-1111 [Tiny](https://drive.google.com/drive/folders/163LnmMHC8wAaKRHClUp0T7oU6GcAzScO?usp=drive_link)        |        32-1224  [Small](https://drive.google.com/drive/folders/1yPPtydoUd_szWG-O65kQ5dsLpqx7BHbp?usp=drive_link)     |        64-1224     [Base](https://drive.google.com/drive/folders/1H96UB15t8pv6Rs83MBDjB7t2OrHEMt08?usp=drive_link)   |        64-1248     [Large](https://drive.google.com/drive/folders/1Wg9-5hwzZVQ_kXMomRoFSC-ZU4X6FwSH?usp=drive_link)   |
 
-We provide different model versions of our DiffUIR, you can replace the model in 
+We provide different model versions of our DiffUIR, you can replace the code in train.py Line 58-65 with the model size mentioned above(64-1224)
 
 ## Model Zoo (Onedrive)
 | Model |    DiffUIR-T (0.89M)  |   DiffUIR-S (3.27M)  |   DiffUIR-B (12.41M)  |   DiffUIR-L (36.26M)  |
