@@ -3,7 +3,8 @@
 [Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper](https://arxiv.org/abs/2403.11157) | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
-[**2024.09.17**] Given more instruction for test.py and visual.py for better usage. <br>
+[**2024.12.02**] Added onedrive checkpoint link. <br>
+[**2024.09.17**] More instruction was given for test.py and visual.py for better usage. <br>
 [**2024.03.18**] The **14 datasets link** is released. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
 [**2024.03.16**] The **4 versions of pretrained weights** of DiffUIR are released. <br>
@@ -123,7 +124,7 @@ We provide different model versions of our DiffUIR, you can replace the code in 
 ## Model Zoo (Onedrive)
 | Model |    DiffUIR-T (0.89M)  |   DiffUIR-S (3.27M)  |   DiffUIR-B (12.41M)  |   DiffUIR-L (36.26M)  |
 |-------|:---------------------:|:--------------------:|:---------------------:|:---------------------:|
-| Arch  |        32-1111 [Tiny]()        |        32-1224  [Small]()     |        64-1224     [Base]()   |        64-1248     [Large](https://1drv.ms/u/c/1470175ad127c62d/EVbkvCEbpeJHvwAbTQ35CLUBI0ncpf2jKM-U8zgZcF2Hdw?e=BgcWxA)   |
+| Arch  |        32-1111 [Tiny](https://1drv.ms/u/c/1470175ad127c62d/EWtfgLYXQWdKoTy_16cdzKEBmebgPdATgisqtE1mlIkomw?e=K1Ji38)        |        32-1224  [Small](https://1drv.ms/u/c/1470175ad127c62d/EancdsJNBA1Fgz3ceoz2Rd4BCkaqCvXdPoFgXSD8KTcMGQ)     |        64-1224     [Base](https://1drv.ms/u/c/1470175ad127c62d/EaU6q3z1ssNBozoqJfcxofQB3_CWx8uJF-Gk5RtX86m-ug?e=x0EJBo)   |        64-1248     [Large](https://1drv.ms/u/c/1470175ad127c62d/EVbkvCEbpeJHvwAbTQ35CLUBI0ncpf2jKM-U8zgZcF2Hdw?e=BgcWxA)   |
 
 ## Qualitative results on five restoration tasks
 
