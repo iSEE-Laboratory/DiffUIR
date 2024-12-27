@@ -3,7 +3,7 @@
 [Project Page](https://isee-laboratory.github.io/DiffUIR/) | [Paper](https://arxiv.org/abs/2403.11157) | [Personal HomePage](https://zhengdian1.github.io)
 
 ### Updates
-[**2024.12.02**] Added onedrive checkpoint link. <br>
+[**2024.12.03**] Added onedrive checkpoint link. <br>
 [**2024.09.17**] More instruction was given for test.py and visual.py for better usage. <br>
 [**2024.03.18**] The **14 datasets link** is released. <br>
 [**2024.03.17**] The **whole training and testing codes** are released!!! <br>
